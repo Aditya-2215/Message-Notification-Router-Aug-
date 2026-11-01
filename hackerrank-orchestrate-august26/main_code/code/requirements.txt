@@ -1,0 +1,8 @@
+pandas>=2.0
+
+# Optional image OCR dependencies:
+# Pillow>=10.0
+# pytesseract>=0.3.10
+
+# Optional local voice transcription:
+# faster-whisper>=1.0.0

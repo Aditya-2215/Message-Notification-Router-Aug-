@@ -1,0 +1,111 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,digest,business_update,"This is useful but non-urgent, and the user's recent notification load is high.",0.79,message_0102;message_0101;message_0243
+msg_091,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0238;message_0381;message_0320
+msg_090,digest,personal,"A personal message is relevant, but no explicit urgent deadline is present.",0.82,message_0339;message_0338
+msg_048,notify,urgent,A time-sensitive group update affects the user and should be seen promptly.,0.85,message_0151;message_0237;message_0152
+msg_040,mute,spam,The message has spam-like solicitation or forwarding signals and is not worth interrupting the user.,0.84,message_0136;message_0135;message_0259
+msg_075,digest,business_update,"This appears to be a legitimate business message, but it does not require immediate attention.",0.77,message_0206;message_0205;message_0293
+msg_005,notify,urgent,The sender directly requests action and signals a time-sensitive dependency.,0.87,message_0049;message_0065;message_0114
+msg_104,notify,urgent,The sender directly requests action and signals a time-sensitive dependency.,0.87,message_0050;message_0224;message_0383
+msg_069,mute,forward,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0177;message_0193;message_0042
+msg_107,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0213;message_0235;message_0369
+msg_070,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0213;message_0195;message_0023
+msg_003,notify,business_update,"A verified business update appears relevant to the user's existing order, booking, or account activity.",0.86,message_0400;message_0031;message_0267
+msg_099,digest,personal,"A personal message is relevant, but no explicit urgent deadline is present.",0.82,message_0227;message_0249;message_0118
+msg_008,digest,business_update,This is a routine business feedback request that can wait for the digest.,0.78,message_0296;message_0072;message_0071
+msg_092,notify,payment,A trusted verified business sent a relevant payment update.,0.81,message_0346;message_0344;message_0345
+msg_060,digest,promotion,"This offer or promotion may be useful, but it can wait for the digest.",0.77,message_0404;message_0284;message_0176
+msg_004,notify,event,"A verified business reminder relates to a health, appointment, or scheduled service.",0.86,message_0064;message_0245;message_0005
+msg_030,mute,promotion,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0335;message_0050;message_0115
+msg_045,digest,event,This event or group update is useful but not clearly urgent.,0.79,message_0146;message_0145;message_0371
+msg_052,mute,scam,The payment request cannot be safely verified.,0.81,message_0159;message_0160;message_0207
+msg_009,mute,unknown,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0074;message_0073;message_0032
+msg_071,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0197;message_0198
+msg_016,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0024;message_0184;message_0202
+msg_065,digest,promotion,The promotion matches the user's opted-in business interests but is not time-critical.,0.79,message_0185;message_0261;message_0186
+msg_038,mute,forward,Repeated forwarded content is low-value and likely to add notification noise.,0.83,message_0131;message_0132;message_0009
+msg_086,digest,business_update,"This appears to be a legitimate business message, but it does not require immediate attention.",0.77,message_0222
+msg_014,mute,promotion,The user has opted out of or repeatedly dismissed similar marketing messages.,0.85,message_0258;message_0083;message_0017
+msg_094,mute,promotion,The business promotion has no clear opt-in relevance for this user.,0.78,message_0356;message_0223;message_0357
+msg_029,mute,forward,Repeated forwarded content is low-value and likely to add notification noise.,0.83,message_0049;message_0066;message_0332
+msg_105,mute,forward,Repeated forwarded content is low-value and likely to add notification noise.,0.83,message_0373;message_0233;message_0278
+msg_002,notify,personal,"The sender directly asks this user for a response, coordination, or action.",0.85,message_0003;message_0041;message_0059
+msg_010,digest,business_update,This is a routine business feedback request that can wait for the digest.,0.78,message_0011;message_0075;message_0076
+msg_078,mute,forward,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0211;message_0212;message_0220
+msg_013,notify,event,The message contains a time-sensitive event or operational update.,0.83,message_0081;message_0082
+msg_018,mute,forward,Repeated forwarded content is low-value and likely to add notification noise.,0.83,message_0092;message_0091;message_0026
+msg_044,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0143;message_0144;message_0036
+msg_032,notify,urgent,A time-sensitive group update affects the user and should be seen promptly.,0.85,message_0119;message_0285;message_0120
+msg_106,notify,event,The message contains a time-sensitive event or operational update.,0.83,message_0376;message_0234;message_0377
+msg_006,notify,urgent,A time-sensitive group update affects the user and should be seen promptly.,0.85,message_0029;message_0044;message_0097
+msg_109,digest,payment,This payment-related information is useful but does not clearly require an immediate interruption.,0.78,message_0151;message_0237;message_0152
+msg_108,digest,business_update,"This appears to be a legitimate business message, but it does not require immediate attention.",0.77,message_0094;message_0093;message_0236
+msg_019,mute,scam,The payment request cannot be safely verified.,0.81,message_0094;message_0093;message_0236
+msg_088,mute,unknown,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0335;message_0050;message_0116
+msg_056,digest,personal,The group is muted by the user; this non-emergency update can be reviewed later.,0.78,message_0168;message_0167;message_0359
+msg_027,digest,promotion,The promotion matches the user's opted-in business interests but is not time-critical.,0.79,message_0272;message_0109;message_0033
+msg_050,digest,business_update,This is a routine business feedback request that can wait for the digest.,0.78,message_0155;message_0279;message_0156
+msg_083,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0219
+msg_063,digest,payment,This payment-related information is useful but does not clearly require an immediate interruption.,0.78,message_0182;message_0181;message_0254
+msg_033,digest,greeting,This is a harmless greeting or casual group message that can be read later.,0.81,message_0121;message_0122;message_0372
+msg_061,mute,greeting,A repetitive forwarded greeting is low priority for this user.,0.83,message_0177;message_0193;message_0042
+msg_020,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0096;message_0095;message_0114
+msg_017,mute,payment,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0090;message_0089;message_0319
+msg_058,mute,forward,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0039;message_0078;message_0241
+msg_026,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0107;message_0032;message_0108
+msg_047,notify,urgent,A time-sensitive group update affects the user and should be seen promptly.,0.85,message_0150;message_0149;message_0001
+msg_046,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0148;message_0147;message_0024
+msg_042,digest,event,This event or group update is useful but not clearly urgent.,0.79,message_0140;message_0139;message_0058
+msg_079,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0023;message_0045;message_0053
+msg_098,notify,event,The message contains a time-sensitive event or operational update.,0.83,message_0359;message_0168;message_0226
+msg_037,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0001;message_0029;message_0215
+msg_007,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0070;message_0069;message_0275
+msg_085,mute,spam,The voice note is from an unverified business with elevated reports or a newly observed sender domain.,0.84,message_0221
+msg_001,notify,urgent,A time-sensitive group update affects the user and should be seen promptly.,0.85,message_0057;message_0240;message_0058
+msg_021,notify,urgent,A time-sensitive group update affects the user and should be seen promptly.,0.85,message_0216;message_0130;message_0180
+msg_028,mute,promotion,The user has opted out of or repeatedly dismissed similar marketing messages.,0.85,message_0034;message_0112;message_0111
+msg_012,mute,forward,This is forwarded advice or chain content with low value and high notification-noise potential.,0.83,message_0079;message_0247;message_0080
+msg_064,digest,payment,This payment-related information is useful but does not clearly require an immediate interruption.,0.78,message_0087;message_0201;message_0183
+msg_103,notify,urgent,The sender directly requests action and signals a time-sensitive dependency.,0.87,message_0049;message_0065;message_0382
+msg_031,digest,event,This event or group update is useful but not clearly urgent.,0.79,message_0118;message_0117;message_0249
+msg_057,notify,personal,"The sender directly asks this user for a response, coordination, or action.",0.85,message_0003;message_0059;message_0169
+msg_087,mute,unknown,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0223;message_0203;message_0358
+msg_067,digest,payment,This payment-related information is useful but does not clearly require an immediate interruption.,0.78,message_0029;message_0044;message_0068
+msg_039,notify,urgent,The sender directly requests action and signals a time-sensitive dependency.,0.87,message_0051;message_0002;message_0255
+msg_082,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0218;message_0397;message_0380
+msg_066,mute,promotion,The user has opted out of or repeatedly dismissed similar marketing messages.,0.85,message_0188;message_0187;message_0258
+msg_049,notify,business_update,"A verified business update appears relevant to the user's existing order, booking, or account activity.",0.86,message_0153;message_0291;message_0154
+msg_015,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0199;message_0200;message_0085
+msg_051,mute,promotion,The user has opted out of or repeatedly dismissed similar marketing messages.,0.85,message_0157;message_0103;message_0257
+msg_097,digest,personal,"A personal message is relevant, but no explicit urgent deadline is present.",0.82,message_0225;message_0054;message_0167
+msg_089,digest,personal,"A personal message is relevant, but no explicit urgent deadline is present.",0.82,message_0299;message_0301;message_0396
+msg_053,mute,forward,Repeated forwarded content is low-value and likely to add notification noise.,0.83,message_0253;message_0161;message_0411
+msg_059,mute,spam,The message has spam-like solicitation or forwarding signals and is not worth interrupting the user.,0.84,message_0213;message_0196;message_0174
+msg_024,mute,promotion,The user has opted out of or repeatedly dismissed similar marketing messages.,0.85,message_0157;message_0103;message_0257
+msg_072,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0199;message_0085;message_0200
+msg_036,mute,scam,The payment request cannot be safely verified.,0.81,message_0127;message_0283;message_0128
+msg_076,mute,scam,The payment request cannot be safely verified.,0.81,message_0159;message_0160;message_0207
+msg_055,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0166;message_0165;message_0387
+msg_102,digest,personal,"A personal message is relevant, but no explicit urgent deadline is present.",0.82,message_0230;message_0371;message_0059
+msg_080,digest,event,This event or group update is useful but not clearly urgent.,0.79,message_0216;message_0130;message_0142
+msg_093,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0349;message_0398;message_0347
+msg_034,mute,forward,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0123;message_0039;message_0013
+msg_035,digest,business_update,"This appears to be a legitimate business message, but it does not require immediate attention.",0.77,message_0281;message_0126;message_0125
+msg_101,digest,personal,"A personal message is relevant, but no explicit urgent deadline is present.",0.82,message_0370;message_0229;message_0268
+msg_041,digest,business_update,"This appears to be a legitimate business message, but it does not require immediate attention.",0.77,message_0138;message_0137;message_0039
+msg_011,mute,greeting,A repetitive forwarded greeting is low priority for this user.,0.83,message_0123;message_0241;message_0171
+msg_110,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0238;message_0381;message_0320
+msg_095,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0202;message_0184;message_0201
+msg_074,mute,promotion,The user has muted this group and has a strong history of dismissing its low-value posts.,0.84,message_0223;message_0204;message_0358
+msg_073,mute,scam,The message requests sensitive verification or payment through a suspicious or high-pressure flow.,0.88,message_0202;message_0184;message_0201
+msg_054,mute,spam,The message has spam-like solicitation or forwarding signals and is not worth interrupting the user.,0.84,message_0163;message_0164;message_0389
+msg_068,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0191;message_0192
+msg_100,notify,urgent,The sender directly requests action and signals a time-sensitive dependency.,0.87,message_0362;message_0117;message_0228
+msg_062,mute,forward,Repeated forwarded content is low-value and likely to add notification noise.,0.83,message_0043;message_0044;message_0098
+msg_096,digest,personal,"A personal message is relevant, but no explicit urgent deadline is present.",0.82,none
+msg_043,mute,spam,The message has spam-like solicitation or forwarding signals and is not worth interrupting the user.,0.84,message_0129;message_0215;message_0179
+msg_077,digest,event,The message is not a safety-critical emergency and arrived during the user's quiet hours.,0.8,message_0051;message_0037;message_0403
+msg_081,digest,unknown,"The message appears safe, but its importance is unclear and it can be reviewed later.",0.73,message_0217
+msg_025,notify,business_update,"A verified business update appears relevant to the user's existing order, booking, or account activity.",0.86,message_0105;message_0004;message_0239
+msg_084,digest,business_update,"This appears to be a legitimate business message, but it does not require immediate attention.",0.77,message_0220
+msg_022,notify,urgent,A time-sensitive group update affects the user and should be seen promptly.,0.85,message_0099;message_0100;message_0151
